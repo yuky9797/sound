@@ -12,7 +12,7 @@ void ofApp::setup(){
 	ofxAccelerometer.setup();
 	ofxiPhoneAlerts.addListener(this);
     ofBackground(0, 0, 0);
-    picker = [[soundview alloc] initWithNibName:@"MPPicker" bundle:nil];
+    picker = [[soundview alloc] initWithNibName:@"soundview" bundle:nil];
     [ofxiPhoneGetUIWindow() addSubview:picker.view];
 
 }
