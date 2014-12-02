@@ -20,7 +20,7 @@
 		BB16EBD20F2B2A9500518274 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16EBD10F2B2A9500518274 /* OpenGLES.framework */; };
 		BB16EBD90F2B2AB500518274 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16EBD80F2B2AB500518274 /* QuartzCore.framework */; };
 		BBE5EAB80F49AD8400F28951 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE5EAB70F49AD8400F28951 /* AudioToolbox.framework */; };
-		C1BBBF8419F666BE003936F2 /* soundview.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BBBF8219F666BE003936F2 /* soundview.m */; };
+		C1BBBF8419F666BE003936F2 /* soundview.mm in Sources */ = {isa = PBXBuildFile; fileRef = C1BBBF8219F666BE003936F2 /* soundview.mm */; };
 		C1BBBF8519F666BE003936F2 /* soundview.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1BBBF8319F666BE003936F2 /* soundview.xib */; };
 		C1CCB88819FFB55200FB88EB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CCB88719FFB55200FB88EB /* MediaPlayer.framework */; };
 		E41D3ED713B38FB500A75A5D /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E41D3ED613B38FB500A75A5D /* Project.xcconfig */; };
@@ -70,7 +70,7 @@
 		BB24DDC910DA781C00E9C588 /* ofxiOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ofxiOS-Info.plist"; sourceTree = "<group>"; };
 		BBE5EAB70F49AD8400F28951 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C1BBBF8119F666BE003936F2 /* soundview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = soundview.h; path = ../../../../../../Documents/of_v0.8.3_osx_release/soundview.h; sourceTree = "<group>"; };
-		C1BBBF8219F666BE003936F2 /* soundview.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = soundview.m; path = ../../../../../../Documents/of_v0.8.3_osx_release/soundview.m; sourceTree = "<group>"; };
+		C1BBBF8219F666BE003936F2 /* soundview.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = soundview.mm; path = ../../../../../../Documents/of_v0.8.3_osx_release/soundview.mm; sourceTree = "<group>"; };
 		C1BBBF8319F666BE003936F2 /* soundview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = soundview.xib; path = ../../../../../../Documents/of_v0.8.3_osx_release/soundview.xib; sourceTree = "<group>"; };
 		C1CCB88719FFB55200FB88EB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		E41D3ED613B38FB500A75A5D /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
@@ -205,10 +205,10 @@
 			isa = PBXGroup;
 			children = (
 				E4D8936B11527B74007E1F53 /* main.mm */,
-				E4D8936D11527B74007E1F53 /* ofApp.mm */,
 				E4D8936C11527B74007E1F53 /* ofApp.h */,
+				E4D8936D11527B74007E1F53 /* ofApp.mm */,
 				C1BBBF8119F666BE003936F2 /* soundview.h */,
-				C1BBBF8219F666BE003936F2 /* soundview.m */,
+				C1BBBF8219F666BE003936F2 /* soundview.mm */,
 				C1BBBF8319F666BE003936F2 /* soundview.xib */,
 			);
 			path = src;
@@ -320,7 +320,7 @@
 			files = (
 				E4D8936E11527B74007E1F53 /* main.mm in Sources */,
 				E4D8936F11527B74007E1F53 /* ofApp.mm in Sources */,
-				C1BBBF8419F666BE003936F2 /* soundview.m in Sources */,
+				C1BBBF8419F666BE003936F2 /* soundview.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

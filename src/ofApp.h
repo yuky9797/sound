@@ -2,13 +2,18 @@
 
 #include "ofMain.h"
 #include "ofxiOS.h"
+#include "ofxiPhone.h"
 #include "ofxiOSExtras.h"
 #import <MediaPlayer/MediaPlayer.h>
 #import <AVFoundation/AVFoundation.h>
-
+#import <UIKit/UIKit.h>
 
 class ofApp : public ofxiOSApp {
 	
+private:
+    UIViewController *subViewController;
+    UINavigationController *navigationController;
+    
     public:
         void setup();
         void update();

@@ -6,6 +6,7 @@ int main(){
 
 	ofRunApp(new ofApp());
 }
+
 extern "C"{
     size_t fwrite$UNIX2003( const void *a, size_t b, size_t c, FILE *d )
     {
